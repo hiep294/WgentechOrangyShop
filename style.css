@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400..700;1,400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  vertical-align: middle;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#section-1 {
+  max-width: 832px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+.section-1__img-container {
+  display: flex;
+  gap: 32px;
+  padding: 41px 8px;
+  max-width: 806px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section-1 h2 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 54px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+#section-1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+}
+
+#section-1 p {
+  text-align: center;
+  text-wrap: wrap;
+  padding: 8px 11px;
+  letter-spacing: 0.038px;
+}
+
+/* section 2 */
+
+#section-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 8px;
+  max-width: 1392px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-2__card {
+  border-radius: 24px;
+  overflow: hidden;
+  background-color: #f4f0ea;
+}
+
+.section-2__card img {
+  width: 100%;
+  height: auto;
+}
+
+.section-2__card--text {
+  padding: 48px;
+  display: flex;
+  align-items: end;
+  padding-bottom: 40px;
+}
+
+.section-2__card--text h3 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 74px;
+}
+
+.section-2__card--text h3.unique {
+  margin-bottom: 32px;
+}
+
+.section-2__card--text h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.section-2__card--text p {
+  font-size: 14px;
+  line-height: 22px;
+  padding: 8px 0;
+}
+
+.section-2__card--text article section {
+  margin-top: 24px;
+}
