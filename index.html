@@ -10,12 +10,20 @@
     <section id="section-1">
       <h2>Lorem ullamco</h2>
       <div class="section-1__img-container">
-        <figure>
+        <picture>
+          <source
+            media="(max-width: 375px)"
+            srcset="images/ho-guom-mobile.png"
+          />
           <img src="images/ho-guom.png" alt="ho-guom" />
-        </figure>
-        <figure>
+        </picture>
+        <picture>
+          <source
+            media="(max-width: 375px)"
+            srcset="images/hang-rong-mobile.png"
+          />
           <img src="images/hang-rong.png" alt="hang-rong" />
-        </figure>
+        </picture>
       </div>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Excepteur
@@ -35,9 +43,12 @@
     </section>
     <section id="section-2">
       <div class="section-2__card">
-        <img src="images/bench.png" alt="bench" />
+        <picture>
+          <source media="(max-width: 375px)" srcset="images/bench-mobile.png" />
+          <img src="images/bench.png" alt="bench" />
+        </picture>
       </div>
-      <div class="section-2__card section-2__card--text">
+      <div class="section-2__card section-2__card-text section-2__card-text-1">
         <article>
           <h3>Lorem ipsum</h3>
           <section>
@@ -72,11 +83,9 @@
         </article>
       </div>
 
-      <div
-        class="section-2__card section-2__card--text section-2__card--text-2"
-      >
+      <div class="section-2__card section-2__card-text section-2__card-text-2">
         <article>
-          <h3 class="mb">Mollit aliquip do ipsum consectetur</h3>
+          <h3>Mollit aliquip do ipsum consectetur</h3>
           <p>
             Ex laborum ea qui consectetur mollit commodo eiusmod culpa dolor
             cupidatat. Ullamco dolore irure ea sit elit velit non officia. Ad eu
@@ -95,7 +104,13 @@
       </div>
 
       <div class="section-2__card">
-        <img src="images/den-long.png" alt="den-long" />
+        <picture>
+          <source
+            media="(max-width: 375px)"
+            srcset="images/den-long-mobile.png"
+          />
+          <img src="images/den-long.png" alt="den-long" />
+        </picture>
       </div>
     </section>
   </body>
